@@ -1,5 +1,5 @@
 import React from 'react'
-import { AlertIOS, Text, TouchableHighlight, View } from 'react-native'
+import { AlertIOS, Text, Button, TouchableHighlight, View } from 'react-native'
 
 export default class Trips extends React.Component {
   static navigatorButtons = {
@@ -24,7 +24,7 @@ export default class Trips extends React.Component {
     if (event.type === 'NavBarButtonPress') { // this is the event type for button presses
       if (event.id === 'add') {
         this.props.navigator.push({
-          screen: 'example.CreateTrip',
+          screen: 'rc.CreateTrip',
           title: 'Add a trip',
           backButtonTitle: 'Cancel'
         });
@@ -36,6 +36,15 @@ export default class Trips extends React.Component {
     return (
       <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
         <Text>Trip listing goes here!</Text>
+
+        <Button onPress={() => {
+          this.props.navigator.push({
+            screen: 'rc.Rides',
+            title: 'Rides',
+            backButtonTitle: 'Cancel'
+          });
+        }} title={'Test rides'} />
+
       </View>
     )
   }

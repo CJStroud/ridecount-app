@@ -5,6 +5,7 @@
 	};
 	objectVersion = 46;
 	objects = {
+
 /* Begin PBXBuildFile section */
 		00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302AC1ABCB8CE00DB3ED1 /* libRCTActionSheet.a */; };
 		00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302BA1ABCB90400DB3ED1 /* libRCTGeolocation.a */; };
@@ -21,6 +22,8 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
+		1A53E763CC144CC8A0FEE264 /* AdventPro-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3490E3A7DE974B7399392A35 /* AdventPro-Medium.ttf */; };
+		201E80DAE7A54F2C8E73F336 /* AdventPro-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E8D8BED30B4407CA34B72B4 /* AdventPro-Thin.ttf */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
@@ -33,17 +36,15 @@
 		2D02E4C81E0B4AEC006451C7 /* libRCTWebSocket-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3E991DF850E9000B6D8A /* libRCTWebSocket-tvOS.a */; };
 		2D02E4C91E0B4AEC006451C7 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3EA31DF850E9000B6D8A /* libReact.a */; };
 		2DCD954D1E0B4F2C00145EB5 /* RidecountAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* RidecountAppTests.m */; };
+		3A903E71A7AD4E319E6D0331 /* AdventPro-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71A4D1BFFEE8476E8D57FFDA /* AdventPro-Light.ttf */; };
+		4FB2422F3B17464EB4841C6B /* AdventPro-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 421E3B5F896B4CB1AE0B9644 /* AdventPro-SemiBold.ttf */; };
 		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
+		66D756D2646944899D35E482 /* AdventPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FBB1F460FD734C1385EC5F9B /* AdventPro-Regular.ttf */; };
+		7CC9D466E54C4EB2A8CDC6BA /* AdventPro-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 02530B5A325F40FF93AE2183 /* AdventPro-Bold.ttf */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		8CE057AE1ED99EA10046FB2F /* libBVLinearGradient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CE057931ED99AE20046FB2F /* libBVLinearGradient.a */; };
 		8CF3A16B1ED1F7F800823CC7 /* libReactNativeNavigation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CF3A16A1ED1F7D800823CC7 /* libReactNativeNavigation.a */; };
-		7CC9D466E54C4EB2A8CDC6BA /* AdventPro-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 02530B5A325F40FF93AE2183 /* AdventPro-Bold.ttf */; };
 		9185025FF4FE48C39DEB24BD /* AdventPro-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A31348BC95E4E68875716B5 /* AdventPro-ExtraLight.ttf */; };
-		3A903E71A7AD4E319E6D0331 /* AdventPro-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71A4D1BFFEE8476E8D57FFDA /* AdventPro-Light.ttf */; };
-		1A53E763CC144CC8A0FEE264 /* AdventPro-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3490E3A7DE974B7399392A35 /* AdventPro-Medium.ttf */; };
-		66D756D2646944899D35E482 /* AdventPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FBB1F460FD734C1385EC5F9B /* AdventPro-Regular.ttf */; };
-		4FB2422F3B17464EB4841C6B /* AdventPro-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 421E3B5F896B4CB1AE0B9644 /* AdventPro-SemiBold.ttf */; };
-		201E80DAE7A54F2C8E73F336 /* AdventPro-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E8D8BED30B4407CA34B72B4 /* AdventPro-Thin.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -262,6 +263,7 @@
 		00E356EE1AD99517003FC87E /* RidecountAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RidecountAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* RidecountAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RidecountAppTests.m; sourceTree = "<group>"; };
+		02530B5A325F40FF93AE2183 /* AdventPro-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "AdventPro-Bold.ttf"; path = "../app/fonts/AdventPro-Bold.ttf"; sourceTree = "<group>"; };
 		139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTSettings.xcodeproj; path = "../node_modules/react-native/Libraries/Settings/RCTSettings.xcodeproj"; sourceTree = "<group>"; };
 		139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTWebSocket.xcodeproj; path = "../node_modules/react-native/Libraries/WebSocket/RCTWebSocket.xcodeproj"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* RidecountApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RidecountApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -274,18 +276,17 @@
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* RidecountApp-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RidecountApp-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* RidecountApp-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RidecountApp-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3490E3A7DE974B7399392A35 /* AdventPro-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "AdventPro-Medium.ttf"; path = "../app/fonts/AdventPro-Medium.ttf"; sourceTree = "<group>"; };
+		421E3B5F896B4CB1AE0B9644 /* AdventPro-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "AdventPro-SemiBold.ttf"; path = "../app/fonts/AdventPro-SemiBold.ttf"; sourceTree = "<group>"; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
+		71A4D1BFFEE8476E8D57FFDA /* AdventPro-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "AdventPro-Light.ttf"; path = "../app/fonts/AdventPro-Light.ttf"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
+		7E8D8BED30B4407CA34B72B4 /* AdventPro-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "AdventPro-Thin.ttf"; path = "../app/fonts/AdventPro-Thin.ttf"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 		8CF3A14C1ED1F7D800823CC7 /* ReactNativeNavigation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ReactNativeNavigation.xcodeproj; path = "../node_modules/react-native-navigation/ios/ReactNativeNavigation.xcodeproj"; sourceTree = "<group>"; };
+		9A31348BC95E4E68875716B5 /* AdventPro-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "AdventPro-ExtraLight.ttf"; path = "../app/fonts/AdventPro-ExtraLight.ttf"; sourceTree = "<group>"; };
 		C42CF4B9D2A34FEF8894F219 /* BVLinearGradient.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = BVLinearGradient.xcodeproj; path = "../node_modules/react-native-linear-gradient/BVLinearGradient.xcodeproj"; sourceTree = "<group>"; };
-		02530B5A325F40FF93AE2183 /* AdventPro-Bold.ttf */ = {isa = PBXFileReference; name = "AdventPro-Bold.ttf"; path = "../app/fonts/AdventPro-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		9A31348BC95E4E68875716B5 /* AdventPro-ExtraLight.ttf */ = {isa = PBXFileReference; name = "AdventPro-ExtraLight.ttf"; path = "../app/fonts/AdventPro-ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		71A4D1BFFEE8476E8D57FFDA /* AdventPro-Light.ttf */ = {isa = PBXFileReference; name = "AdventPro-Light.ttf"; path = "../app/fonts/AdventPro-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		3490E3A7DE974B7399392A35 /* AdventPro-Medium.ttf */ = {isa = PBXFileReference; name = "AdventPro-Medium.ttf"; path = "../app/fonts/AdventPro-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		FBB1F460FD734C1385EC5F9B /* AdventPro-Regular.ttf */ = {isa = PBXFileReference; name = "AdventPro-Regular.ttf"; path = "../app/fonts/AdventPro-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		421E3B5F896B4CB1AE0B9644 /* AdventPro-SemiBold.ttf */ = {isa = PBXFileReference; name = "AdventPro-SemiBold.ttf"; path = "../app/fonts/AdventPro-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		7E8D8BED30B4407CA34B72B4 /* AdventPro-Thin.ttf */ = {isa = PBXFileReference; name = "AdventPro-Thin.ttf"; path = "../app/fonts/AdventPro-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FBB1F460FD734C1385EC5F9B /* AdventPro-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "AdventPro-Regular.ttf"; path = "../app/fonts/AdventPro-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -448,6 +449,20 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		14D03F289D1B42C2AFA85ECF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				02530B5A325F40FF93AE2183 /* AdventPro-Bold.ttf */,
+				9A31348BC95E4E68875716B5 /* AdventPro-ExtraLight.ttf */,
+				71A4D1BFFEE8476E8D57FFDA /* AdventPro-Light.ttf */,
+				3490E3A7DE974B7399392A35 /* AdventPro-Medium.ttf */,
+				FBB1F460FD734C1385EC5F9B /* AdventPro-Regular.ttf */,
+				421E3B5F896B4CB1AE0B9644 /* AdventPro-SemiBold.ttf */,
+				7E8D8BED30B4407CA34B72B4 /* AdventPro-Thin.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		5E91572E1DD0AC6500FF2AA8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -535,21 +550,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		14D03F289D1B42C2AFA85ECF /* Resources */ = {
-			isa = "PBXGroup";
-			children = (
-				02530B5A325F40FF93AE2183 /* AdventPro-Bold.ttf */,
-				9A31348BC95E4E68875716B5 /* AdventPro-ExtraLight.ttf */,
-				71A4D1BFFEE8476E8D57FFDA /* AdventPro-Light.ttf */,
-				3490E3A7DE974B7399392A35 /* AdventPro-Medium.ttf */,
-				FBB1F460FD734C1385EC5F9B /* AdventPro-Regular.ttf */,
-				421E3B5F896B4CB1AE0B9644 /* AdventPro-SemiBold.ttf */,
-				7E8D8BED30B4407CA34B72B4 /* AdventPro-Thin.ttf */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-			path = "";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -636,7 +636,11 @@
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = BGTSXNZ7QU;
 						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = BGTSXNZ7QU;
 					};
 					2D02E47A1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -1055,6 +1059,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = BGTSXNZ7QU;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -1084,6 +1089,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = BGTSXNZ7QU;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
@@ -1110,6 +1116,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
+				DEVELOPMENT_TEAM = BGTSXNZ7QU;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
@@ -1132,6 +1139,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BGTSXNZ7QU;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",

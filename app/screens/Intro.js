@@ -3,7 +3,7 @@ import { View, StyleSheet, StatusBar } from 'react-native'
 import LinearGradient from 'react-native-linear-gradient'
 import { Navigation } from 'react-native-navigation'
 import Text from '../components/Text'
-import Button from '../components/Button'
+import Button from '../components/GradientButton'
 
 export default class Intro extends React.Component {
   static navigatorStyle = {
@@ -12,7 +12,7 @@ export default class Intro extends React.Component {
 
   handleNextScreen = () => {
     this.props.navigator.push({
-      screen: 'example.Login', // unique ID registered with Navigation.registerScreen
+      screen: 'rc.Login', // unique ID registered with Navigation.registerScreen
       animated: true, // does the push have transition animation or does it happen immediately (optional)
     });
   }
@@ -22,7 +22,7 @@ export default class Intro extends React.Component {
       <LinearGradient colors={['#2480EE', '#EA20B7']} style={styles.linearGradient}>
         <StatusBar barStyle={'light-content'} />
 
-        <View style={{ marginBottom: 100, marginHorizontal: 20 }}>
+        <View style={{ marginBottom: 75, marginHorizontal: 20 }}>
           <Text style={styles.heading}>Hello</Text>
 
           <Text style={styles.text}>The path of the righteous man is beset on all sides by the iniquities of the selfish and the tyranny of evil men. Blessed is he who, in the name of charity and good will, shepherds the weak through the valley of darkness, for he is truly his brother's keeper and the finder of lost children.</Text>

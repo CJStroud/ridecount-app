@@ -1,12 +1,14 @@
 import React from 'react'
 import { ScrollView, StyleSheet, StatusBar, View, TouchableHighlight, Alert, TouchableOpacity } from 'react-native'
+import { connect } from 'react-redux'
 import LinearGradient from 'react-native-linear-gradient'
 import { Navigation } from 'react-native-navigation'
 import Text from '../components/Text'
 import GradientInput from '../components/GradientInput'
-import Button from '../components/Button'
+import Button from '../components/GradientButton'
+import Colors from '../colors'
 
-export default class Login extends React.Component {
+export class Login extends React.Component {
   static navigatorStyle = {
     navBarHidden: true
   }
@@ -20,37 +22,19 @@ export default class Login extends React.Component {
   }
 
   handleLogin = () => {
-    this.setState({ loading: true })
+    // this.setState({ loading: true })
+    //
+    // setTimeout(() => {
+    //   this.setState({ loading: false })
+    //   // start the app
+    //
+    // }, 500)
+  }
 
-    setTimeout(() => {
-      this.setState({ loading: false })
-      // start the app
-      Navigation.startTabBasedApp({
-        tabs: [
-          {
-            label: 'Home',
-            screen: 'example.Home', // this is a registered name for a screen
-            // icon: require('../img/one.png'),
-            // selectedIcon: require('../img/one_selected.png'), // iOS only
-            title: 'Home'
-          },
-          {
-            label: 'Trips',
-            screen: 'example.Trips',
-            // icon: require('../img/two.png'),
-            // selectedIcon: require('../img/two_selected.png'), // iOS only
-            title: 'Trips'
-          },
-          {
-            label: 'Settings',
-            screen: 'example.Settings',
-            // icon: require('../img/two.png'),
-            // selectedIcon: require('../img/two_selected.png'), // iOS only
-            title: 'Settings'
-          }
-        ]
-      })
-    }, 2000)
+  handleRegister = () => {
+    this.props.navigator.push({
+      screen: 'rc.Register'
+    })
   }
 
   render () {
@@ -85,7 +69,7 @@ export default class Login extends React.Component {
 
           <View style={{ flex: 1, alignItems: 'center' }}>
             <Text style={{ color: '#fff', fontSize: 20, marginBottom: 10 }} weight={'ExtraLight'}>New to ridecount?</Text>
-            <TouchableOpacity>
+            <TouchableOpacity onPress={this.handleRegister}>
               <Text style={{ color: '#fff' }}>Register now</Text>
             </TouchableOpacity>
           </View>
@@ -111,3 +95,16 @@ var styles = StyleSheet.create({
     backgroundColor: 'transparent',
   }
 })
+
+const mapDispatchToProps = (dispatch) => {
+  return {
+    login: () => {
+      dispatch(loginAction)
+    }
+  }
+}
+
+export default connect(
+  null,
+  mapDispatchToProps
+)(Login)

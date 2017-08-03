@@ -1,0 +1,29 @@
+{
+  "parser": "babel-eslint",
+  "globals": {
+    "__DEV__": false,
+    "fetch": false,
+    "XMLHttpRequest": false
+  },
+  "extends": [
+    "standard",
+    "plugin:react/all",
+    "plugin:react-native/all"
+  ],
+  "plugins": [
+    "react",
+    "react-native"
+  ],
+  "rules": {
+    "react/jsx-indent": [2, 2],
+    "react/jsx-indent-props": [2, 2],
+    "react/jsx-filename-extension": 0,
+    "react/no-set-state": 0,
+    "react/forbid-component-props" : 0, // doesnt play nice with react-native
+    "react/no-unescaped-entities" : 0, // doesnt play nice with react-native
+    "react/jsx-no-bind": 0, // Impractical to try and remove
+    "react/prefer-stateless-function": [2, { "ignorePureComponents": true }], // TODO set to 2
+    "react/forbid-prop-types": [2, { "forbid": ["any", "array"]}], // we need to use object
+    "no-console": ["error", { "allow": ["warn", "error"] }]
+  }
+}
